@@ -4,7 +4,7 @@ import api from '../api/axios';
 import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
 import toast from 'react-hot-toast';
-
+//Booking wala section
 const Booking = () => {
   const { token } = useAuth();
   const { darkMode } = useTheme();
